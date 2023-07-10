@@ -68,7 +68,6 @@ p {
     color: #223140;
 }
 
-
 .benefits {
     display: inline-flex;
     justify-content: space-around;
@@ -103,3 +102,25 @@ p {
 .fun3 h3 {
     color: rgb(68, 68, 255);
 }
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.box-group-2{
+    position: relative;
+    top: 30px;
+}
+
+.box-group-4{
+    position: relative;
+    bottom: 20px;
+}
+
+#container{
+    display: flex;
+}
+
