@@ -103,24 +103,92 @@ p {
     color: rgb(68, 68, 255);
 }
 
-.box{
+.box {
     width: 80px;
     height: 80px;
     margin: 10px;
     box-shadow: 2px 2px 10px rgb(207, 207, 207);
     border-radius: 5px;
+    position: relative;
 }
-.box-group-2{
+
+.box-group-2 {
     position: relative;
     top: 30px;
 }
 
-.box-group-4{
+.box-group-4 {
     position: relative;
     bottom: 20px;
 }
 
-#container{
+#container {
     display: flex;
 }
 
+.boximg {
+    position: absolute;
+    margin: 15px 15px;
+    width: 60%;
+}
+
+#boxs {
+    margin: 11px 10px;
+    width: 70%;
+}
+
+#boxd {
+    position: relative;
+}
+
+.costomer {
+    position: relative;
+    top: 80px;
+}
+
+.div12 {
+    text-align: center;
+}
+
+.feedback {
+    width: 270px;
+    height: 280px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(173, 173, 173);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.feedback img {
+    margin-top: -50px;
+}
+
+.feedback h3 {
+    color: rgba(83, 85, 88, 0.5);
+}
+
+.feedback .blackh3 {
+    color: black;
+}
+
+.awards{
+    display: inline-flex;
+    
+}
+
+.awarddiv{
+    text-align: center;
+    margin: 120px 30px;
+    padding: 9px;
+}
+
+.awarddiv h2{
+    color: #094BCA;;
+}
+.awarddiv p{
+    color: #223140;
+    font-size: 17px;
+}
