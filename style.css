@@ -110,7 +110,7 @@ p {
     width: 80px;
     height: 80px;
     margin: 10px;
-    box-shadow: 2px 2px 10px rgb(207, 207, 207);
+    box-shadow: 2px 2px 10px rgb(223, 223, 223);
     border-radius: 5px;
     position: relative;
 }
@@ -163,7 +163,6 @@ p {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-
 }
 
 .feedback img {
@@ -264,6 +263,4 @@ footer{
     left: 0px;
     right: 0px;
     text-align: left;
-    
-
 }
